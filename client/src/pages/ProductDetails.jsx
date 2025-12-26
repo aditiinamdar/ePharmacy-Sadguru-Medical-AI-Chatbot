@@ -52,7 +52,7 @@ const ProductDetails = () => {
                   : "border-gray-200 hover:border-green-400"}`}
               >
                 <img
-                  src={`http://localhost:5000/images/${img}`}
+                  src={`https://e-pharmacy-sadguru-medical.onrender.com/images/${img}`}
                   alt="thumb"
                   className="w-full h-full object-contain p-2"
                 />
@@ -63,7 +63,7 @@ const ProductDetails = () => {
           <div className="flex-1 bg-white rounded-2xl border border-gray-200
            shadow-lg p-6 flex items-center justify-center">
             <img
-              src={`http://localhost:5000/images/${thumbnail}`}
+              src={`https://e-pharmacy-sadguru-medical.onrender.com/images/${thumbnail}`}
               alt={product.name}
               className="max-h-[420px] object-contain"
             />
