@@ -32,7 +32,7 @@ const ProductCard = ({ product }) => {
       <div className="relative flex items-center justify-center w-full aspect-square mb-4 
       bg-slate-50/50 rounded-3xl p-4 transition-colors group-hover:bg-emerald-50/30">
         <img
-          src={`http://localhost:5000/images/${product.image[0]}`}
+          src={`https://e-pharmacy-sadguru-medical.onrender.com/images/${product.image[0]}`}
           alt={product.name}
           className="max-h-full object-contain transition-all duration-500 
           group-hover:scale-110 drop-shadow-xl"
