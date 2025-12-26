@@ -20,23 +20,23 @@ View the project here: https://sadguru-medical-pharmacy.onrender.com/
 
 The application uses React Router DOM for seamless navigation, featuring public customer routes and protected seller/admin routes.
 🛒 Customer Routes
-/ – Home: Landing page with featured categories.
-/products – Catalog: Browse all available medical supplies.
-/product/:category/:id – Details: In-depth information about a specific medicine with categories like devices,medicines,etc
-/cart – Shopping Cart: Manage selected items for purchase.
-/my-orders – User History: View previous purchases and status.
-/chatbot – AI Assistant: Access the Gemini-powered health bot.
+1. / – Home: Landing page with featured categories.
+2. /products – Catalog: Browse all available medical supplies.
+3. /product/:category/:id – Details: In-depth information about a specific medicine with categories like devices,medicines,etc
+4. /cart – Shopping Cart: Manage selected items for purchase.
+5. /my-orders – User History: View previous purchases and status.
+6. /chatbot – AI Assistant: Access the Gemini-powered health bot.
 
 🛡Protected Seller/Admin Routes
 The system uses a SellerLayout to protect sensitive administrative actions:
-/seller – Dashboard: Access point for sellers (requires login) & option to add Product with images
-/seller/product-list – Inventory List: Table view of all stock for editing/deletion i.e to change the stock 
-/seller/orders – Order Management: View and update status of customer orders.
+1. /seller – Dashboard: Access point for sellers (requires login) & option to add Product with images
+2. /seller/product-list – Inventory List: Table view of all stock for editing/deletion i.e to change the stock
+3. /seller/orders – Order Management: View and update status of customer orders.
 
 🛠 Tech Stack
-Layer           Technology
-Frontend        React.js, React Router DOM, JavaScript (ES6+)StylingTailwind CSS / Bootstrap
-Backend         Node.js, Express.js
-Database        MongoDB (via Mongoose)
-AI Integration  Google Gemini API 
-Deployment      Render
+Layer              Technology
+1. Frontend        React.js, React Router DOM, JavaScript (ES6+)StylingTailwind CSS / Bootstrap
+2. Backend         Node.js, Express.js
+3. Database        MongoDB (via Mongoose)
+4. AI Integration  Google Gemini API 
+5. Deployment      Render
