@@ -16,7 +16,7 @@ const MyOrders = () => {
   const [myOrders, setMyOrders] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const IMAGE_BASE_URL = import.meta.env.VITE_IMAGE_URL || "http://localhost:5000/images";
+  const IMAGE_BASE_URL = import.meta.env.VITE_IMAGE_URL || "https://e-pharmacy-sadguru-medical.onrender.com/images";
 
   const fetchOrders = async () => {
     try {
