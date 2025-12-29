@@ -40,15 +40,7 @@ const BestSeller = () => {
             ))}
           </div>
 
-          {/* Mobile View All Button (Visible only on mobile) */}
-          <div className="mt-8 sm:hidden">
-            <button 
-              className="w-full py-3 border border-gray-300 rounded-lg text-gray-700 font-medium active:bg-gray-50 transition-colors"
-              onClick={() => window.location.href = '/shop'} // Adjust route as needed
-            >
-              View All Best Sellers
-            </button>
-          </div>
+         
         </>
       ) : (
         <div className="text-center py-10 text-gray-500">
