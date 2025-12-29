@@ -15,9 +15,9 @@ import AddAddress from './pages/AddAddress.jsx';
 import SellerLogin from "./components/seller/SellerLogin";
 
 import Orders from "./pages/seller/Orders.jsx";
-import SellerLayout from './pages/Seller/SellerLayout.jsx';
-import AddProduct from './pages/Seller/AddProduct.jsx';
-import ProductList from './pages/Seller/ProductList.jsx';
+import SellerLayout from './pages/seller/SellerLayout.jsx';
+import AddProduct from './pages/seller/AddProduct.jsx';
+import ProductList from './pages/seller/ProductList.jsx';
 
 
 
