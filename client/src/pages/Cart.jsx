@@ -134,7 +134,7 @@ const Cart = () => {
               >
                 <img
                   className="max-w-full h-full object-cover"
-                  src={`http://localhost:5000/images/${product.image[0]}`}
+                  src={`https://e-pharmacy-sadguru-medical.onrender.com/images/${product.image[0]}`}
                   alt={product.name}
                 />
               </div>
